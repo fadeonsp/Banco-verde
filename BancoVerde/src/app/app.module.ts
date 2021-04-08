@@ -7,13 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CadastroClientesComponent } from './components/cadastro-clientes/cadastro-clientes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    CadastroClientesComponent
   ],
   imports: [
     BrowserModule,
